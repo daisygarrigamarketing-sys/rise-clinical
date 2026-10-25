@@ -1,0 +1,19 @@
+RISE Clinical Services — complete source export
+
+This archive preserves every tracked source file byte-for-byte from source commit f2c2612f093ea3b8bfe2cc3be1139d7ecec569e5.
+It includes application components, CSS/animations, original images, bundled fonts, server/Worker code, configuration, scripts, tests, package.json and package-lock.json.
+
+Dependencies: exact dependency versions and integrity hashes are in package-lock.json. Generated node_modules is not included; install dependencies with npm ci (Node.js >=22.13.0). Existing build scripts require Linux/GNU utilities; use Linux or WSL for those scripts.
+
+GitHub upload:
+1. Extract this ZIP.
+2. Open https://github.com/daisygarrigamarketing-sys/rise-clinical
+3. Choose Add file > Upload files and upload the extracted contents, not the ZIP itself.
+4. Include hidden directories/files, especially .vinext, .openai, .gitignore and .npmrc. Git tooling is more reliable than dragging files for hidden files.
+5. Commit the files. The repository may already contain README.md from initialization; the included README is the original site README.
+
+Hosting:
+Uploading source to GitHub does not itself deploy a running website. This project uses Vinext/React and a Cloudflare Worker, not a standalone GitHub Pages HTML website. The existing Sites configuration and all code are preserved. Hosting elsewhere requires compatible Worker/Vinext deployment configuration. The current site is https://rise-clinical-services.daisyaurora.chatgpt.site .
+
+External services:
+Instagram embeds still require network access to Instagram; outbound appointment/profile links require their original services. No hosted accounts, credentials, or third-party services are bundled. No source design or behavior was changed for this export. The ZIP was verified against the source files; no fresh deployment or runtime test was performed.
